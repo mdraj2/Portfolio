@@ -1,0 +1,15 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.header {
+	height: 95vh;
+	background-image: linear-gradient(rgba(25, 181, 254, 0.8), rgb(51, 51, 255,0.8)), url('img/city-1.jpg');
+	background-size: cover;
+	background-position: bottom;
+	-webkit-clip-path: ellipse(100% 55% at 48% 44%);
+ 	clip-path: ellipse(100% 55% at 48% 44%);
+
+}
